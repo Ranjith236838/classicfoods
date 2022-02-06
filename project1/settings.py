@@ -26,8 +26,6 @@ SECRET_KEY = 'django-insecure-3t_b@yrtbp%kpaiv78xqz60_kss%pp9+39)w93#k9!zk53ku@z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['classicfoods.herokuapp.com']
-
 
 # Application definition
 
@@ -132,3 +130,6 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+#allowed hosts
+ALLOWED_HOSTS = ['classicfoods.herokuapp.com/',]
