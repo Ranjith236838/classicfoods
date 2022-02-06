@@ -1,0 +1,1 @@
+web : gunicorn bill_gen.wsgi --log-file -
